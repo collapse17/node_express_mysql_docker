@@ -1,7 +1,6 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const Seed = require('./app/seeds/index');
 const app = express();
 
 var corsOptions = {
